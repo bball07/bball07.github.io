@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Lato Light text font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+    <!--CSS File-->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Bootstrap Files-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.2.1 (2).js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+  <body>
+    <!--Top of page w/ logo and name-->
+    <div class="container">
+        <header class="row" title="Portfolio">
+            <div class="col-md-6">
+                <div class="top-container-style top-container-logo img-circle"><img src="Images/My-image.png" class="img-fluid" alt="Brittney Ball Photo"> </div>
+            </div>
+            <div class="col-md-6">
+                <div class="top-container-style">
+                    <h1 class="top-container-text top-container-text-name">Brittney Ball</h1>
+                    <h3 class="top-container-text top-container-text-web-developer"> Front-End Web Developer</h3>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--Line right under logo and name-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="line-under-logo-and-name">
+            </div>
+        </div>
+    </div>
+
+    <!--Middle of the page with wide image that goes across the page-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="middle-container-style"><img src="Images/Portfolio-mid-img.png" class="img-fluid" alt="HTML and CSS logos"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Featured work above the portfolios-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="featured-work">
+                    <h2 class="featured-work-text">Featured Work</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section w/ the portfolio images-->
+    <main class="container">
+        <!--text-center is a part of bootstrap. It will center all of the text in this row.-->
+        <div class="row text-center">
+            <!--The <article> tag specifies independent, self-contained content.-->
+            <article class="col-md-4">
+                <div class="portfolio-box-styling animal-trading-card-styling">
+                    <img src="Images/animal-trading-cards.png" class="img-fluid" alt="Animal Trading Cards" data-toggle="modal" data-target="#animal-trading-card">
+                    <h3 class="portfolio-names-and-links-heading">Animal Trading Card</h3>
+                    <p class="portfolio-names-and-links-paragraph"><a href="https://github.com/bball07/animal-trading-card-project" target="_blank">https://github.com/bball07/animal-trading-card-project</a></p>
+                </div>
+            </article>
+
+            <article class="col-md-4">
+                <div class="portfolio-box-styling online-resume-styling">
+                    <img src="Images/Online-Resume.png" class="img-fluid" alt="Online-Resume" data-toggle="modal" data-target="#Online-resume">
+                    <h3 class="portfolio-names-and-links-heading">Online Resume</h3>
+                    <p class="portfolio-names-and-links-paragraph"><a href="https://github.com/bball07/Online-Resume-Project.git" target="_blank">Online Resume</a></p>
+                </div>
+            </article>
+
+            <article class="col-md-4">
+                <div class="portfolio-box-styling classic-arcade-game-styling">
+                    <img src="Images/InternetSlowdown_Day.gif" class="img-fluid" alt="Classic Arcade Game" data-toggle="modal" data-target="#classic-arcade-game">
+                    <h3 class="portfolio-names-and-links-heading">Classic Arcade Game</h3>
+                    <p class="portfolio-names-and-links-paragraph"><a href="https://github.com/bball07" target="_blank">Under Construction</a></p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!--Modal for Animal Trading Card-->
+    <!--
+    1. aria-labelledby: Identifies the element (or elements) that labels the current element.. ARIA is typically used for those w/ disabilities
+    2. aria-hidden (state): Indicates that the element and all of its descendants are not visible or perceivable to any user as implemented by the author.
+    3. The primary consumers of these properties are user agents such as screen readers for blind people. So in the case
+    with a Bootstrap modal, the modal's div has role="dialog". When the screen reader notices that a div becomes
+    visible which has this role, it'll speak the label for that div.
+    -->
+
+    <!-- ANIMAL TRADING CARD MODAL -->
+    <div class="modal fade" id="animal-trading-card" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">The Animal Trading Card</h4>
+                </div>
+                <!--ADD IMAGE-->
+                <div class="modal-body">
+                    <img class="img-fluid animal-trading-card-modal-img" src="Images/Trading%20Card.png">
+                    <div class="animal-trading-card-modal-text">This was a project where I had to select an animal and create a card with facts using HTML and CSS..</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" alt="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ONLINE RESUME MODAL-->
+    <div class="modal fade" id="online-resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Online Resume</h4>
+                </div>
+                <!--ADD IMAGE-->
+                <div class="modal-body">
+                    <img class="img-fluid online-resume-modal-img" src="Images/Online-Resume.png">
+                    <div class="online-resume-modal-text">For this project I had to create an online resume using HTML and CSS</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" alt="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CLASSIC ARCADE GAME MODAL-->
+    <div class="modal fade" id="classic-arcade-game" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Classic Arcade Game</h4>
+                </div>
+                <!--ADD IMAGE-->
+                <div class="modal-body">
+                    <img class="img-fluid classic-arcade-game-modal-img" src="Images/InternetSlowdown_Day.gif">
+                    <div class="classic-arcade-game-modal-text">Under Construction</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" alt="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
