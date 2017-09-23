@@ -1,0 +1,274 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.top-container-style{
+    margin-top: 20px;
+}
+
+.img-circle img{
+    height: 115px;
+    width: 100px;
+    border-radius: 60%;
+}
+
+.top-container-text{
+    text-align: right;
+
+}
+
+/*Alianza Clyne name text styling*/
+.top-container-text-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+/*Front End Web Developer text style*/
+.top-container-text-web-developer{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+.line-under-logo-and-name{
+    height: 3px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: purple;
+}
+
+.middle-container-style {
+    margin-top: 20px;
+}
+
+.middle-container-style img{
+    width: 100%;
+}
+
+/*Featured work box style*/
+.featured-work {
+    margin-left: 10px;
+}
+
+/*Featured work text  style*/
+.featured-work-text{
+    color: #7d97ad;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.h2{
+}
+
+.portfolio-box-styling {
+    margin: 3px;
+}
+
+.animal-trading-card-styling {
+    cursor: pointer;
+}
+
+.animal-trading-card-styling img{
+    width: 555px;
+    height: auto;
+}
+
+.online-resume-styling {
+cursor: pointer;
+}
+
+.online-resume-styling img{
+    width: 555px;
+    /*height: 200px;*/
+}
+
+.classic-arcade-game-styling {
+    cursor: pointer;
+}
+
+.classic-arcade-game-styling img{
+    width: 555px;
+}
+
+
+.portfolio-names-and-links{
+    text-align: center;
+
+}
+
+/*Portfolio names headong style*/
+.portfolio-names-and-links-heading{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #2d3c49;
+    font-size: 30px;
+}
+
+/*Portfolio links  style*/
+.portfolio-names-and-links-paragraph{
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-size: 15px;
+}
+
+/* MODALS */
+
+/*Modal for Animal Trading Card*/
+#animal-trading-card {
+
+}
+
+.modal-dialog {
+
+}
+
+.modal-content {
+
+}
+
+.modal-header{
+
+}
+
+.modal-title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #2d3c49;
+    font-size: 30px;
+}
+
+
+.animal-trading-card-modal-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animal-trading-card-modal-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.online-resume-modal-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.classic-arcade-game-modal-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+
+/*RESPONSIVE DESIGN*/
+
+/*For iPad Pro*/
+/*
+@media only screen and (min-width: 801px) and  (max-width: 1024px) {
+
+}
+*/
+
+/*For iPad*/
+@media only screen and (min-width: 700px) and  (max-width: 800px) {
+    .img-circle img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: 150px;
+        width: 150px;
+    }
+
+    .top-container-text-name {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 200;
+    }
+
+    .top-container-text-web-developer {
+        text-align: center;
+    }
+
+    .featured-work-text {
+        text-align: center;
+    }
+
+    .portfolio-names-and-links-paragraph {
+        font-size: 20px;
+    }
+
+    .animal-trading-card-styling img {
+        height: 250px;
+    }
+
+    .online-resume-styling img {
+        height: 250px;
+    }
+
+    .classic-arcade-game-styling img {
+        height: 250px;
+    }
+}
+
+
+/*For Galaxy S5, Nexus 5X, Nexus 6P, iPhone 6, iPhone 6 Plus*/
+@media only screen and (min-width: 322px) and  (max-width: 420px) {
+    .img-circle img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-container-text-name {
+        text-align: center;
+        font-size: 45px;
+        font-weight: 200;
+    }
+
+    .top-container-text-web-developer {
+        text-align: center;
+    }
+
+    .featured-work-text {
+        text-align: center;
+    }
+}
+
+/*For iPhone 5*/
+@media only screen and (max-width: 321px) {
+    .img-circle img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-container-text-name {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 200;
+    }
+
+    .top-container-text-web-developer {
+        text-align: center;
+    }
+
+    .featured-work-text {
+        text-align: center;
+    }
+}
